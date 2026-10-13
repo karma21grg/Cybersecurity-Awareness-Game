@@ -1,0 +1,31 @@
+Campus Cyber Quest
+Website Project Details
+
+Purpose
+Campus Cyber Quest is an interactive cybersecurity learning website. It uses short lessons and scenario quizzes to help users recognize digital threats and practise safer online habits.
+
+Main Features
+- Ten cybersecurity missions with lessons and multiple-choice quizzes.
+- Explanations after each answer.
+- Scores, completion tracking, and achievement badges.
+- A progress page, retry options, progress export, and a reset option.
+- A How to play page explaining the website flow.
+- A responsive layout for different screen sizes.
+
+Technologies
+HTML structures the pages, CSS controls the appearance and layout, and JavaScript handles navigation, quiz answers, scores, and progress. The website runs in a browser without a server-side application or database.
+
+Files
+index.html: Main HTML page and links to the stylesheet and JavaScript.
+style.css: Colours, typography, layout, and responsive styling.
+app.js: Lessons, quiz scenarios, navigation, feedback, and progress logic.
+details.txt: Overview of the website project.
+
+Progress Storage
+Progress is stored in the browser using localStorage. It remains available after refreshing the page in the same browser when storage is available. Progress does not automatically transfer to another browser or device. Clearing browser data or resetting progress removes the saved records.
+
+Training Content
+Email scenarios are fictional practice examples. Official university contact addresses are included for comparison; the example messages were not sent by the university. Users should never enter real passwords or sensitive information into the website.
+
+Hosting
+The website consists of static files and can be hosted on GitHub Pages. The HTML, CSS, and JavaScript files should be kept together in the publishing folder.
